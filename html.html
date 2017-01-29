@@ -20,18 +20,21 @@
       <body>
 
         <div id ="app">
-        <p>Hello My Name Is: </div>
-        <div id="frame"></div>
+         <p>
+	   Hello My Name Is: 
+	   <div id="frame"></div>
+	 </p>
+       </div>
 
-        </p>
-        </div>
     <script>
       var box ="something is in my box!"
       var fname = prompt("What is your first name?");
       var app = document.getElementById('app')
 
-      app.innerHTML = fname
+      document.getElementById('fname').innerHTML = fname
 
     </script>
 
-      </body>
+     </body>
+   </html>
+
